@@ -172,7 +172,7 @@ const renderPublications = () => {
 
 const renderNews = () => {
   byId("news-list").innerHTML = (data.news || [])
-    .map((item) => `<li><span class="news-date">${escapeHtml(item.date)}</span><span>${renderLinkedText(item.text, data.textLinks, "text-link")}</span></li>`)
+    .map((item) => `<li><span class="news-date">${escapeHtml(item.date)}</span><span>${renderLinkedText(item.text, data.textLinks, "author-link")}</span></li>`)
     .join("");
 };
 
@@ -182,7 +182,7 @@ const renderService = () => {
       (group) => `
         <section class="service-group">
           <h3>${escapeHtml(group.title)}</h3>
-          <ul>${(group.items || []).map((item) => `<li>${renderLinkedText(item, data.textLinks, "text-link")}</li>`).join("")}</ul>
+          <ul>${(group.items || []).map((item) => `<li>${renderLinkedText(item, data.textLinks, "author-link")}</li>`).join("")}</ul>
         </section>
       `
     )
