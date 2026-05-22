@@ -6,18 +6,22 @@ window.SITE_DATA = {
   location: "College Park, MD",
   email: "zli9226@umd.edu",
   photo: "assets/profile-placeholder.svg",
-  cv: "#",
+  cv: "assets/Zheyu_Li_CV_05-2026_Online_Public.pdf",
   headlineKicker: "Academic Homepage",
   headline: "ZHEYU LI",
   summary:
-    "I am a Ph.D. student in Civil and Environmental Engineering at the University of Maryland. My work focuses on transportation engineering, with interests in optimization, public transportation systems, air transportation, rural mobility, and infrastructure performance evaluation. Current research topics include optimization, simulation, and data-driven planning",
+    "I am a Ph.D. student in Civil and Environmental Engineering at the University of Maryland. My work focuses on transportation engineering, with interests in optimization, public transportation systems, air transportation, rural mobility, and infrastructure performance evaluation. Current research topics include optimization, simulation, and data-driven planning.",
   facts: [
     { label: "Program", value: "Ph.D., Civil & Environmental Engineering" },
     { label: "School", value: "University of Maryland" },
     { label: "Focus", value: "Transportation engineering" }
   ],
   links: [
+    { label: "GitHub", url: "https://github.com/zheyuli2525" },
+    { label: "Google Scholar", url: "https://scholar.google.com/citations?user=yziTilsAAAAJ&hl=zh-CN" },
+    { label: "ResearchGate", url: "https://www.researchgate.net/profile/Zheyu-Li-20" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/zheyuli1999" },
+    { label: "ORCID", url: "https://orcid.org/0009-0001-5205-9683" },
     { label: "Email", url: "mailto:zli9226@umd.edu" }
   ],
   tags: [
@@ -30,11 +34,11 @@ window.SITE_DATA = {
   ],
   about: [
     "I am a Ph.D. student in Civil and Environmental Engineering at the University of Maryland, College Park. My research sits at the intersection of transportation planning, operations research, and data-driven performance evaluation.",
-    "My current work includes performance evaluation and measurement of Local Access Roads in Appalachia, hybrid scheduling and routing for rural transit, airport runway operations, runway-exit location optimization, and strategic planning for electric truck charging stations.",
+    "My current work includes transit coordination with stochastic optimization, performance evaluation and measurement of Local Access Roads in Appalachia, hybrid scheduling and routing for rural transit, airport runway operations, runway-exit location optimization, and strategic planning for electric truck charging stations.",
     "Before beginning the Ph.D., I completed an M.S. in Civil and Environmental Engineering at the University of Maryland and a bachelor's degree in Transportation Engineering at Chang'an University."
   ],
   metrics: [
-    { value: "5", label: "Working papers" },
+    { value: "7", label: "Working papers" },
     { value: "4", label: "TRB presentations" },
     { value: "1", label: "Accepted journal article" },
     { value: "2023", label: "Ph.D. start" }
@@ -64,16 +68,16 @@ window.SITE_DATA = {
     },
     {
       label: "Public Transportation",
-      title: "Hybrid scheduling and routing for rural transit",
+      title: "Transit coordination and rural transit scheduling",
       description:
-        "A rural transit study integrating flexible and fixed-route services, currently under minor revision at Transportation Research Record.",
+        "Research on stochastic transit coordination and hybrid scheduling and routing for rural transit systems integrating flexible and fixed-route services.",
       url: "#"
     }
   ],
   timeline: [
     {
       date: "2023 - Present",
-      title: "Ph.D. Student, University of Maryland",
+      title: "Ph.D. Candidate, University of Maryland",
       description:
         "Doctoral study in Civil and Environmental Engineering with a focus on transportation engineering, optimization, public transportation, and air transportation."
     },
@@ -108,8 +112,15 @@ window.SITE_DATA = {
       venue: "TRR Minor Revision",
       title: "Hybrid Scheduling and Routing for Rural Transit with Flexible and Fixed-Route Integration",
       authors: "Zheyu Li and Paul Schonfeld",
-      details: "Under minor revision at Transportation Research Record, April 2026. Also presented at the 105th TRB Annual Meeting.",
+      details: "Under minor revision at Transportation Research Record. Also presented at the 105th TRB Annual Meeting.",
       links: [{ label: "Manuscript", url: "#" }]
+    },
+    {
+      venue: "Working Paper",
+      title: "Transit Coordination with Stochastic Optimization",
+      authors: "Zheyu Li and Paul Schonfeld",
+      details: "Working paper, proposal stage.",
+      links: [{ label: "Project", url: "#" }]
     },
     {
       venue: "Working Paper",
@@ -120,9 +131,16 @@ window.SITE_DATA = {
     },
     {
       venue: "Working Paper",
+      title: "Machine Learning Based Runway Occupancy Prediction and Landing Sequences Reshuffle",
+      authors: "Zheyu Li, C.-Y. Lin, Dianwei Chen, and Paul Schonfeld",
+      details: "Working paper, proposal stage.",
+      links: [{ label: "Project", url: "#" }]
+    },
+    {
+      venue: "Working Paper",
       title: "Data-Driven Simulation and Reshuffling of Runway Landing Sequences at BWI",
       authors: "Zheyu Li, S. Babaee, C.-Y. Lin, and Paul Schonfeld",
-      details: "To be submitted to the 106th TRB Annual Meeting.",
+      details: "To be submitted to the 106th TRB Annual Meeting and Transportation Research Board.",
       links: [{ label: "Project", url: "#" }]
     },
     {
@@ -130,6 +148,13 @@ window.SITE_DATA = {
       title: "Optimization of Runway Exits Locations Based on Fleet Mix and Operational Uncertainty",
       authors: "Zheyu Li, Y.-Z. Lei, and Paul Schonfeld",
       details: "To be submitted to Transportation Research Part B: Methodological.",
+      links: [{ label: "Project", url: "#" }]
+    },
+    {
+      venue: "Working Paper",
+      title: "Decommissioning Rural Roadside Traveler Information Infrastructure: An Evidence-Based Framework for HAR and DMS in the Mobile Era",
+      authors: "Dianwei Chen, Z. Zhang, Y.-Z. Lei, Zheyu Li, Y. Liu, and Xianfeng Terry Yang",
+      details: "To be submitted to Transportation Research Part A: Policy and Practice.",
       links: [{ label: "Project", url: "#" }]
     },
     {
@@ -155,7 +180,8 @@ window.SITE_DATA = {
     }
   ],
   news: [
-    { date: "May 2026", text: "Built a new GitHub Pages academic homepage." },
+    { date: "May 2026", text: "Updated public CV, academic profile links, and working paper list." },
+    { date: "May 2026", text: "Renamed GitHub Pages repository to zheyuli2525.github.io." },
     { date: "Apr 2026", text: "Guest presenter for ENCE 674 - Public Transportation Planning at the University of Maryland." },
     { date: "Apr 2026", text: "Hybrid scheduling and routing paper under minor revision at Transportation Research Record." },
     { date: "Jan 2026", text: "Presented rural transit scheduling and routing work at the 105th TRB Annual Meeting." },
