@@ -212,6 +212,22 @@ h1 {
   color: var(--ink);
 }
 
+.profile-facts a,
+.author-link {
+  color: var(--accent-strong);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.profile-facts a:hover,
+.profile-facts a:focus,
+.author-link:hover,
+.author-link:focus {
+  color: var(--berry);
+}
+
 .social-links {
   display: flex;
   flex-wrap: wrap;
