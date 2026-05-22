@@ -128,6 +128,7 @@ window.SITE_DATA = {
     {
       date: "2022 - Present",
       title: "Graduate Research Assistant, ADHS MTI Research Fellowship",
+      subitem: true,
       description:
         "Supports Appalachian Regional Commission research by updating ADHS annual status reporting, monitoring FHWA FMIS project data, and following Local Access Road project status."
     },
