@@ -631,6 +631,26 @@ h1 {
   text-transform: uppercase;
 }
 
+.visitor-card strong {
+  display: block;
+  color: var(--berry);
+  font-size: 1.55rem;
+  line-height: 1;
+}
+
+.visitor-card a {
+  color: var(--accent-strong);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.visitor-meta {
+  color: var(--muted);
+  font-weight: 700;
+}
+
 .visitor-badge {
   width: max-content;
   max-width: 100%;
