@@ -5,7 +5,7 @@ window.SITE_DATA = {
   affiliation: "University of Maryland, College Park",
   location: "College Park, MD",
   email: "zli9226@umd.edu",
-  photo: "assets/profile-placeholder.svg",
+  photo: "assets/profile.jpg",
   cv: "assets/Zheyu_Li_CV_05-2026_Online_Public.pdf",
   headlineKicker: "Academic Homepage",
   headline: "ZHEYU LI",
