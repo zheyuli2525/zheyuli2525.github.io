@@ -33,6 +33,10 @@ window.SITE_DATA = {
     "Dianwei Chen": "https://dianweichen.github.io/",
     "Y.-Z. Lei": "https://edisonylei.github.io/"
   },
+  textLinks: {
+    "Appalachian Regional Commission": "https://www.arc.gov",
+    "Civil Remarks": "https://view.publitas.com/university-of-maryland-jbyr39_jr_pb/civil-remarks-magazine-2025/page/4-5"
+  },
   tags: [
     "Transportation Engineering",
     "Optimization",
@@ -66,21 +70,21 @@ window.SITE_DATA = {
       title: "Performance evaluation of Local Access Roads in Appalachia",
       description:
         "Research on measuring and evaluating Local Access Road outcomes in the Appalachian region, connected to ADHS status reporting and ARC-funded project monitoring.",
-      url: "#"
+      url: "https://www.arc.gov"
     },
     {
       label: "Air Transportation",
       title: "Runway operations, exits, and landing sequence reshuffling",
       description:
         "Work on runway occupancy prediction, landing sequence reshuffling, BWI data-driven simulation, and runway-exit location optimization under fleet mix and operational uncertainty.",
-      url: "#"
+      url: "https://www.researchgate.net/publication/396084963_Optimization_of_Runway_Exits_Locations_Based_on_Fleet_Mix_and_Operational_Delays"
     },
     {
       label: "Public Transportation",
       title: "Transit coordination and rural transit scheduling",
       description:
         "Research on stochastic transit coordination and hybrid scheduling and routing for rural transit systems integrating flexible and fixed-route services.",
-      url: "#"
+      url: "https://www.researchgate.net/publication/403641090_Hybrid_Scheduling_and_Routing_for_Rural_Transit_with_Flexible_and_Fixed-Route_Integration"
     }
   ],
   timeline: [
@@ -122,7 +126,7 @@ window.SITE_DATA = {
       title: "Hybrid Scheduling and Routing for Rural Transit with Flexible and Fixed-Route Integration",
       authors: "Zheyu Li and Paul Schonfeld",
       details: "Under minor revision at Transportation Research Record. Also presented at the 105th TRB Annual Meeting.",
-      links: [{ label: "Manuscript", url: "#" }]
+      links: [{ label: "Manuscript", url: "https://www.researchgate.net/publication/403641090_Hybrid_Scheduling_and_Routing_for_Rural_Transit_with_Flexible_and_Fixed-Route_Integration" }]
     },
     {
       venue: "Working Paper",
@@ -175,8 +179,7 @@ window.SITE_DATA = {
     }
   ],
   news: [
-    { date: "May 2026", text: "Updated public CV, academic profile links, and working paper list." },
-    { date: "May 2026", text: "Renamed GitHub Pages repository to zheyuli2525.github.io." },
+    { date: "Feb 2026", text: "Our ARC-supported research on on-demand public transportation for rural communities was featured in the Winter 2026 issue of Civil Remarks." },
     { date: "Apr 2026", text: "Guest presenter for ENCE 674 - Public Transportation Planning at the University of Maryland." },
     { date: "Apr 2026", text: "Hybrid scheduling and routing paper under minor revision at Transportation Research Record." },
     { date: "Jan 2026", text: "Presented rural transit scheduling and routing work at the 105th TRB Annual Meeting." },
