@@ -6,6 +6,8 @@ window.SITE_DATA = {
   location: "College Park, MD",
   email: "zli9226@umd.edu",
   photo: "assets/profile.jpg",
+  coverPhoto: "assets/harpersferry.png",
+  coverCaption: "Harpers Ferry, West Virginia",
   cv: "assets/Zheyu_Li_CV_05-2026_Online_Public.pdf",
   headlineKicker: "Academic Homepage",
   headline: "ZHEYU LI",
@@ -49,7 +51,7 @@ window.SITE_DATA = {
     { value: "4", label: "TRB presentations" },
     { value: "1", label: "Accepted journal article" },
     { value: "2023", label: "Ph.D. start" }
-],
+  ],
   interests: [
     "Transportation engineering and optimization",
     "Public transportation planning",
