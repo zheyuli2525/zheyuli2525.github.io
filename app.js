@@ -23,6 +23,31 @@ const safeUrl = (url) => {
   }
 };
 
+const renderLinkedText = (value = "", linkMap = {}, className = "text-link") => {
+  const text = String(value);
+  const entries = Object.entries(linkMap)
+    .filter(([label, url]) => label && url)
+    .sort((a, b) => b[0].length - a[0].length);
+
+  if (!entries.length) return escapeHtml(text);
+
+  let html = "";
+  let index = 0;
+  while (index < text.length) {
+    const match = entries.find(([label]) => text.startsWith(label, index));
+    if (match) {
+      const [label, url] = match;
+      html += `<a class="${className}" href="${safeUrl(url)}">${escapeHtml(label)}</a>`;
+      index += label.length;
+    } else {
+      html += escapeHtml(text[index]);
+      index += 1;
+    }
+  }
+
+  return html;
+};
+
 const setTextFields = () => {
   document.querySelectorAll("[data-field]").forEach((node) => {
     const key = node.getAttribute("data-field");
@@ -40,7 +65,12 @@ const renderProfile = () => {
 
   const facts = byId("profile-facts");
   facts.innerHTML = (data.facts || [])
-    .map((item) => `<li><strong>${escapeHtml(item.label)}</strong><span>${escapeHtml(item.value)}</span></li>`)
+    .map((item) => {
+      const value = item.url
+        ? `<a href="${safeUrl(item.url)}">${escapeHtml(item.value)}</a>`
+        : escapeHtml(item.value);
+      return `<li><strong>${escapeHtml(item.label)}</strong><span>${value}</span></li>`;
+    })
     .join("");
 
   const links = byId("social-links");
@@ -114,7 +144,7 @@ const renderPublications = () => {
           <div class="pub-venue">${escapeHtml(pub.venue)}</div>
           <div>
             <h3>${escapeHtml(pub.title)}</h3>
-            <p>${escapeHtml(pub.authors)}</p>
+            <p class="pub-authors">${renderLinkedText(pub.authors, data.authorLinks, "author-link")}</p>
             <p>${escapeHtml(pub.details)}</p>
             <div class="pub-links">${links}</div>
           </div>
