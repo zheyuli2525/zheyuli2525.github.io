@@ -314,7 +314,7 @@ h1 {
 }
 
 .hero-photo-card {
-  max-width: 720px;
+  width: min(100%, 520px);
   margin: 1.55rem 0 0;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -325,8 +325,10 @@ h1 {
 
 .hero-photo-card img {
   width: 100%;
-  height: clamp(180px, 24vw, 260px);
-  object-fit: cover;
+  height: clamp(260px, 34vw, 380px);
+  padding: 0.45rem;
+  background: #f4ebe3;
+  object-fit: contain;
   object-position: center;
 }
 
@@ -708,6 +710,14 @@ h1 {
   .hero-content h2 {
     font-size: 2.25rem;
     line-height: 1.04;
+  }
+
+  .hero-photo-card {
+    width: min(100%, 430px);
+  }
+
+  .hero-photo-card img {
+    height: clamp(250px, 78vw, 360px);
   }
 
   .metrics,
