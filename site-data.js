@@ -14,6 +14,7 @@ window.SITE_DATA = {
   facts: [
     { label: "Program", value: "Ph.D., Civil & Environmental Engineering" },
     { label: "School", value: "University of Maryland" },
+    { label: "Advisor", value: "Paul Schonfeld", url: "https://cee.umd.edu/clark/faculty/291/Paul-Schonfeld" },
     { label: "Focus", value: "Transportation engineering" }
   ],
   links: [
@@ -24,6 +25,11 @@ window.SITE_DATA = {
     { label: "ORCID", url: "https://orcid.org/0009-0001-5205-9683" },
     { label: "Email", url: "mailto:zli9226@umd.edu" }
   ],
+  authorLinks: {
+    "Paul Schonfeld": "https://cee.umd.edu/clark/faculty/291/Paul-Schonfeld",
+    "Dianwei Chen": "https://dianweichen.github.io/",
+    "Y.-Z. Lei": "https://edisonylei.github.io/"
+  },
   tags: [
     "Transportation Engineering",
     "Optimization",
@@ -162,21 +168,21 @@ window.SITE_DATA = {
       title: "Locations for Electric Truck Charging Stations and Impact of Battery Technology Improvement",
       authors: "Zheyu Li, Y.M. Choi, and Paul Schonfeld",
       details: "Poster Session at the 104th TRB Annual Meeting, January 2025.",
-      links: [{ label: "TRBAM-25-00308", url: "#" }]
+      links: [{ label: "ResearchGate", url: "https://www.researchgate.net/publication/393772344_Strategic_Location_Planning_for_Electric_Truck_Charging_Stations_using_Truck_Trajectory_Data_Improvement" }]
     },
     {
       venue: "TRB 2025",
       title: "Optimization of Runway Exits Locations Based on Fleet Mix and Operational Delays",
       authors: "Zheyu Li and Paul Schonfeld",
       details: "Lectern Session at the 104th TRB Annual Meeting, January 2025.",
-      links: [{ label: "TRBAM-25-03220", url: "#" }]
+      links: [{ label: "ResearchGate", url: "https://www.researchgate.net/publication/396084963_Optimization_of_Runway_Exits_Locations_Based_on_Fleet_Mix_and_Operational_Delays" }]
     },
     {
       venue: "TRB 2024",
       title: "A Planning Model for Flexible-route Delivery Optimization of Farm Products: A Case Study in Central Appalachia",
       authors: "Zheyu Li, J. Wang, and Paul Schonfeld",
       details: "Lectern Session at the 103rd TRB Annual Meeting, January 2024.",
-      links: [{ label: "TRBAM-24-04252", url: "#" }]
+      links: [{ label: "ResearchGate", url: "https://www.researchgate.net/publication/396085124_A_Planning_Model_for_Flexible-route_Delivery_Optimization_of_Farm_Products_A_Case_Study_in_Central_Appalachia" }]
     }
   ],
   news: [
