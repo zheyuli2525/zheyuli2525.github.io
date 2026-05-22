@@ -37,7 +37,9 @@ window.SITE_DATA = {
   },
   textLinks: {
     "Appalachian Regional Commission": "https://www.arc.gov",
-    "Civil Remarks Winter 2026": "https://view.publitas.com/university-of-maryland-jbyr39_jr_pb/civil-remarks-magazine-2025/page/4-5"
+    "Civil Remarks Winter 2026": "https://view.publitas.com/university-of-maryland-jbyr39_jr_pb/civil-remarks-magazine-2025/page/4-5",
+    "Electric truck charging station location planning paper": "https://journals.sagepub.com/doi/10.1177/03611981251364835",
+    "Hybrid scheduling and routing paper": "https://www.researchgate.net/publication/403641090_Hybrid_Scheduling_and_Routing_for_Rural_Transit_with_Flexible_and_Fixed-Route_Integration"
   },
   tags: [
     "Transportation Engineering",
