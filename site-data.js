@@ -26,7 +26,7 @@ window.SITE_DATA = {
     { label: "Email", url: "mailto:zli9226@umd.edu" }
   ],
   authorLinks: {
-    "Zheyu Li": "https://zheyuli2525.github.io/"
+    "Zheyu Li": "https://zheyuli2525.github.io/",
     "Paul Schonfeld": "https://cee.umd.edu/clark/faculty/291/Paul-Schonfeld",
     "Dianwei Chen": "https://dianweichen.github.io/",
     "Y.-Z. Lei": "https://edisonylei.github.io/"
