@@ -7,7 +7,7 @@ window.SITE_DATA = {
   email: "zli9226@umd.edu",
   photo: "assets/profile.jpg",
   coverPhoto: "assets/harpersferry.png",
-  coverCaption: "Harpers Ferry, West Virginia",
+  coverCaption: "Harpers Ferry, West Virginia. May 2026",
   cv: "assets/Zheyu_Li_CV_05-2026_Online_Public.pdf",
   headlineKicker: "Academic Homepage",
   headline: "ZHEYU LI",
