@@ -181,38 +181,44 @@ const renderVisitors = () => {
   if (!root) return;
 
   const visitor = data.visitorWidgets || {};
-  const badgeUrl = safeUrl(visitor.badgeUrl);
-  const mapScript = safeUrl(visitor.mapScript);
-  const cards = [];
+  const statsUrl = safeUrl(visitor.statsUrl);
+  const userAgent = navigator.userAgent || "";
+  const platform = navigator.userAgentData?.platform || navigator.platform || "Unknown";
+  const system = /Windows/i.test(platform)
+    ? "Windows"
+    : /Mac/i.test(platform)
+      ? "macOS"
+      : /iPhone|iPad|iPod/i.test(userAgent)
+        ? "iOS"
+        : /Android/i.test(userAgent)
+          ? "Android"
+          : /Linux/i.test(platform)
+            ? "Linux"
+            : platform;
+  const browser = /Edg\//.test(userAgent)
+    ? "Edge"
+    : /Chrome\//.test(userAgent)
+      ? "Chrome"
+      : /Safari\//.test(userAgent) && !/Chrome\//.test(userAgent)
+        ? "Safari"
+        : /Firefox\//.test(userAgent)
+          ? "Firefox"
+          : "Browser";
+  const device = window.matchMedia("(pointer: coarse)").matches
+    ? window.matchMedia("(min-width: 760px)").matches ? "Tablet" : "Mobile"
+    : "Desktop";
 
-  if (badgeUrl !== "#") {
-    cards.push(`
-      <article class="visitor-card">
-        <span class="label">Page visits</span>
-        <img class="visitor-badge" src="${badgeUrl}" alt="${escapeHtml(visitor.badgeAlt || "Visitor count")}">
-      </article>
-    `);
-  }
-
-  if (mapScript !== "#") {
-    cards.push(`
-      <article class="visitor-card visitor-card-wide">
-        <span class="label">${escapeHtml(visitor.mapProvider || "Visitor map")}</span>
-        <div class="visitor-map" id="visitor-map"></div>
-      </article>
-    `);
-  }
-
-  root.innerHTML = cards.join("");
-
-  const map = byId("visitor-map");
-  if (map && mapScript !== "#") {
-    const script = document.createElement("script");
-    script.src = mapScript;
-    script.async = true;
-    script.id = "visitor-map-script";
-    map.appendChild(script);
-  }
+  root.innerHTML = `
+    <article class="visitor-card">
+      <span class="label">Visitor stats</span>
+      <a href="${statsUrl}">${escapeHtml(visitor.statsLabel || "Map My Visitors")}</a>
+    </article>
+    <article class="visitor-card">
+      <span class="label">Current visitor</span>
+      <strong>${escapeHtml(device)}</strong>
+      <span class="visitor-meta">${escapeHtml(system)} / ${escapeHtml(browser)}</span>
+    </article>
+  `;
 };
 
 const renderService = () => {
