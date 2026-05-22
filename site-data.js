@@ -32,7 +32,8 @@ window.SITE_DATA = {
     "Paul Schonfeld": "https://cee.umd.edu/clark/faculty/291/Paul-Schonfeld",
     "Dianwei Chen": "https://dianweichen.github.io/",
     "Yuan-Zheng Lei": "https://edisonylei.github.io/",
-    "Youngmin Choi": "https://myrigparking.com/"
+    "Youngmin Choi": "https://myrigparking.com/",
+    "Jason Wang": "https://www.arc.gov/staff/jason-wang/"
   },
   textLinks: {
     "Appalachian Regional Commission": "https://www.arc.gov",
@@ -174,7 +175,7 @@ window.SITE_DATA = {
     {
       venue: "TRB 2024",
       title: "A Planning Model for Flexible-route Delivery Optimization of Farm Products: A Case Study in Central Appalachia",
-      authors: "Zheyu Li, Jasom Wang, and Paul Schonfeld",
+      authors: "Zheyu Li, Jason Wang, and Paul Schonfeld",
       details: "Lectern Session at the 103rd TRB Annual Meeting, January 2024.",
       links: [{ label: "ResearchGate", url: "https://www.researchgate.net/publication/396085124_A_Planning_Model_for_Flexible-route_Delivery_Optimization_of_Farm_Products_A_Case_Study_in_Central_Appalachia" }]
     }
