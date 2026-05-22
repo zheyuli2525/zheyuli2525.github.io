@@ -583,6 +583,29 @@ h1 {
   font-weight: 800;
 }
 
+.map-widget-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface-strong);
+  padding: 1.05rem;
+  overflow: hidden;
+}
+
+.map-widget-frame {
+  min-height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.map-widget-frame > *,
+.map-widget-frame iframe,
+.map-widget-frame img,
+.map-widget-frame object {
+  max-width: 100%;
+}
+
 .visitor-widgets {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
