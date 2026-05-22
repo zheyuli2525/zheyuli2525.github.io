@@ -176,6 +176,45 @@ const renderNews = () => {
     .join("");
 };
 
+const renderVisitors = () => {
+  const root = byId("visitor-widgets");
+  if (!root) return;
+
+  const visitor = data.visitorWidgets || {};
+  const badgeUrl = safeUrl(visitor.badgeUrl);
+  const mapScript = safeUrl(visitor.mapScript);
+  const cards = [];
+
+  if (badgeUrl !== "#") {
+    cards.push(`
+      <article class="visitor-card">
+        <span class="label">Page visits</span>
+        <img class="visitor-badge" src="${badgeUrl}" alt="${escapeHtml(visitor.badgeAlt || "Visitor count")}">
+      </article>
+    `);
+  }
+
+  if (mapScript !== "#") {
+    cards.push(`
+      <article class="visitor-card visitor-card-wide">
+        <span class="label">${escapeHtml(visitor.mapProvider || "Visitor map")}</span>
+        <div class="visitor-map" id="visitor-map"></div>
+      </article>
+    `);
+  }
+
+  root.innerHTML = cards.join("");
+
+  const map = byId("visitor-map");
+  if (map && mapScript !== "#") {
+    const script = document.createElement("script");
+    script.src = mapScript;
+    script.async = true;
+    script.id = "visitor-map-script";
+    map.appendChild(script);
+  }
+};
+
 const renderService = () => {
   byId("service-list").innerHTML = (data.service || [])
     .map(
@@ -216,6 +255,7 @@ renderResearch();
 renderTimeline();
 renderPublications();
 renderNews();
+renderVisitors();
 renderService();
 renderFooter();
 setupNavigation();
