@@ -5,7 +5,7 @@ window.SITE_DATA = {
   affiliation: "University of Maryland, College Park",
   location: "College Park, MD",
   email: "zli9226@umd.edu",
-  photo: "assets/profile-placeholder.svg",
+  photo: "assets/profile.jpg",
   cv: "assets/Zheyu_Li_CV_05-2026_Online_Public.pdf",
   headlineKicker: "Academic Homepage",
   headline: "ZHEYU LI",
@@ -26,6 +26,7 @@ window.SITE_DATA = {
     { label: "Email", url: "mailto:zli9226@umd.edu" }
   ],
   authorLinks: {
+    "Zheyu Li": "https://zheyuli2525.github.io/"
     "Paul Schonfeld": "https://cee.umd.edu/clark/faculty/291/Paul-Schonfeld",
     "Dianwei Chen": "https://dianweichen.github.io/",
     "Y.-Z. Lei": "https://edisonylei.github.io/"
@@ -144,23 +145,9 @@ window.SITE_DATA = {
     },
     {
       venue: "Working Paper",
-      title: "Data-Driven Simulation and Reshuffling of Runway Landing Sequences at BWI",
-      authors: "Zheyu Li, S. Babaee, C.-Y. Lin, and Paul Schonfeld",
-      details: "To be submitted to the 106th TRB Annual Meeting and Transportation Research Board.",
-      links: [{ label: "Project", url: "#" }]
-    },
-    {
-      venue: "Working Paper",
       title: "Optimization of Runway Exits Locations Based on Fleet Mix and Operational Uncertainty",
       authors: "Zheyu Li, Y.-Z. Lei, and Paul Schonfeld",
       details: "To be submitted to Transportation Research Part B: Methodological.",
-      links: [{ label: "Project", url: "#" }]
-    },
-    {
-      venue: "Working Paper",
-      title: "Decommissioning Rural Roadside Traveler Information Infrastructure: An Evidence-Based Framework for HAR and DMS in the Mobile Era",
-      authors: "Dianwei Chen, Z. Zhang, Y.-Z. Lei, Zheyu Li, Y. Liu, and Xianfeng Terry Yang",
-      details: "To be submitted to Transportation Research Part A: Policy and Practice.",
       links: [{ label: "Project", url: "#" }]
     },
     {
@@ -187,7 +174,6 @@ window.SITE_DATA = {
   ],
   news: [
     { date: "May 2026", text: "Updated public CV, academic profile links, and working paper list." },
-    { date: "May 2026", text: "Renamed GitHub Pages repository to zheyuli2525.github.io." },
     { date: "Apr 2026", text: "Guest presenter for ENCE 674 - Public Transportation Planning at the University of Maryland." },
     { date: "Apr 2026", text: "Hybrid scheduling and routing paper under minor revision at Transportation Research Record." },
     { date: "Jan 2026", text: "Presented rural transit scheduling and routing work at the 105th TRB Annual Meeting." },
