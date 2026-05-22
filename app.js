@@ -63,6 +63,22 @@ const renderProfile = () => {
     photo.alt = `${data.name || "Profile"} photo`;
   }
 
+  const coverPhoto = byId("cover-photo");
+  const coverCard = byId("cover-photo-card");
+  const coverCaption = byId("cover-caption");
+  if (coverPhoto && coverCard) {
+    if (data.coverPhoto) {
+      coverPhoto.src = data.coverPhoto;
+      coverPhoto.alt = data.coverCaption || "Homepage cover photo";
+      coverCard.hidden = false;
+    } else {
+      coverCard.hidden = true;
+    }
+  }
+  if (coverCaption) {
+    coverCaption.textContent = data.coverCaption || "";
+  }
+
   const facts = byId("profile-facts");
   facts.innerHTML = (data.facts || [])
     .map((item) => {
