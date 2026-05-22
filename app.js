@@ -139,7 +139,7 @@ const renderTimeline = () => {
   byId("timeline-list").innerHTML = (data.timeline || [])
     .map(
       (item) => `
-        <li>
+        <li class="${item.subitem ? "timeline-subitem" : ""}">
           <span class="date">${escapeHtml(item.date)}</span>
           <h3>${escapeHtml(item.title)}</h3>
           <p>${escapeHtml(item.description)}</p>
