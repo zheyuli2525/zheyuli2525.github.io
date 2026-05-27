@@ -179,7 +179,7 @@ window.SITE_DATA = {
     {
       venue: "Working Paper",
       title: "Machine Learning Based Runway Occupancy Prediction and Landing Sequences Reshuffle",
-      authors: "Zheyu Li, Chen-Yen Lin, Dianwei Chen, and Paul Schonfeld",
+      authors: "Zheyu Li, Chen-Yen Lin, Dianwei Chen, Yuan-Zheng Lei, Tianxiao Yu, and Paul Schonfeld",
       details: "Working paper, proposal stage.",
       links: [{ label: "Project", url: "#" }]
     },
