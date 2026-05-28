@@ -156,7 +156,7 @@ window.SITE_DATA = {
       links: [{ label: "DOI", url: "https://doi.org/10.1177/03611981251364835" }]
     },
     {
-      venue: "TRR Minor Revision & TRB 2026",
+      venue: "Under Revision & TRB 2026",
       title: "Hybrid Scheduling and Routing for Rural Transit with Flexible and Fixed-Route Integration",
       authors: "Zheyu Li and Paul Schonfeld",
       details: "Under minor revision at Transportation Research Record. Also presented at the 105th TRB Annual Meeting.",
