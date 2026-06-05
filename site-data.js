@@ -167,7 +167,7 @@ window.SITE_DATA = {
       title: "Optimization of Runway Exits Locations Based on Fleet Mix and Operational Uncertainty",
       authors: "Zheyu Li, Yuan-Zheng Lei, and Paul Schonfeld",
       details: "Under review at Transportation Research Part B: Methodological.",
-      links: [{ label: "Preprint @SSRN", url: "https://doi.org/10.2139/ssrn.6883131" }, {label: "Preprint @ResearchGate", url: "https://doi.org/10.2139/ssrn.6883131"}]
+      links: [{ label: "Preprint @SSRN", url: "https://doi.org/10.2139/ssrn.6883131" }, {label: "Preprint @ResearchGate", url: "https://www.researchgate.net/publication/406077288_Optimization_of_Runway_Exits_Locations_Based_on_Fleet_Mix_and_Operational_Uncertainty"}]
     },
     {
       venue: "Working Paper",
