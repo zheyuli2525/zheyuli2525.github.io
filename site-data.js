@@ -163,6 +163,13 @@ window.SITE_DATA = {
       links: [{ label: "Manuscript", url: "https://www.researchgate.net/publication/403641090_Hybrid_Scheduling_and_Routing_for_Rural_Transit_with_Flexible_and_Fixed-Route_Integration" }]
     },
     {
+      venue: "Under Review",
+      title: "Optimization of Runway Exits Locations Based on Fleet Mix and Operational Uncertainty",
+      authors: "Zheyu Li, Yuan-Zheng Lei, and Paul Schonfeld",
+      details: "Under review at Transportation Research Part B: Methodological.",
+      links: [{ label: "Project", url: "#" }]
+    },
+    {
       venue: "Working Paper",
       title: "Transit Coordination with Stochastic Optimization",
       authors: "Zheyu Li and Paul Schonfeld",
@@ -181,13 +188,6 @@ window.SITE_DATA = {
       title: "Machine Learning Based Runway Occupancy Prediction and Landing Sequences Reshuffle",
       authors: "Zheyu Li, Chen-Yen Lin, Dianwei Chen, Yuan-Zheng Lei, Tianxiao Yu, and Paul Schonfeld",
       details: "Working paper, proposal stage.",
-      links: [{ label: "Project", url: "#" }]
-    },
-    {
-      venue: "Working Paper",
-      title: "Optimization of Runway Exits Locations Based on Fleet Mix and Operational Uncertainty",
-      authors: "Zheyu Li, Yuan-Zheng Lei, and Paul Schonfeld",
-      details: "To be submitted to Transportation Research Part B: Methodological.",
       links: [{ label: "Project", url: "#" }]
     },
     {
