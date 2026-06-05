@@ -153,21 +153,21 @@ window.SITE_DATA = {
       title: "Strategic Location Planning for Electric Truck Charging Stations using Truck Trajectory Data Improvement",
       authors: "Zheyu Li, Youngmin Choi, and Paul Schonfeld",
       details: "Accepted for Transportation Research Record, October 2025.",
-      links: [{ label: "DOI", url: "https://doi.org/10.1177/03611981251364835" }]
+      links: [{ label: "DOI: doi.org/10.1177/03611981251364835", url: "https://doi.org/10.1177/03611981251364835" }]
     },
     {
       venue: "Under Revision & TRB 2026",
       title: "Hybrid Scheduling and Routing for Rural Transit with Flexible and Fixed-Route Integration",
       authors: "Zheyu Li and Paul Schonfeld",
       details: "Under minor revision at Transportation Research Record. Also presented at the 105th TRB Annual Meeting.",
-      links: [{ label: "Manuscript", url: "https://www.researchgate.net/publication/403641090_Hybrid_Scheduling_and_Routing_for_Rural_Transit_with_Flexible_and_Fixed-Route_Integration" }]
+      links: [{ label: "Manuscript @ResearchGate", url: "https://www.researchgate.net/publication/403641090_Hybrid_Scheduling_and_Routing_for_Rural_Transit_with_Flexible_and_Fixed-Route_Integration" }]
     },
     {
       venue: "Under Review",
       title: "Optimization of Runway Exits Locations Based on Fleet Mix and Operational Uncertainty",
       authors: "Zheyu Li, Yuan-Zheng Lei, and Paul Schonfeld",
       details: "Under review at Transportation Research Part B: Methodological.",
-      links: [{ label: "Preprint", url: "https://doi.org/10.2139/ssrn.6883131" }]
+      links: [{ label: "Preprint", url: "https://doi.org/10.2139/ssrn.6883131" }, {label: "Preprint", url: "https://doi.org/10.2139/ssrn.6883131"}]
     },
     {
       venue: "Working Paper",
