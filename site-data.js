@@ -1,4 +1,4 @@
-Prewindow.SITE_DATA = {
+window.SITE_DATA = {
   name: "Zheyu Li",
   nameNative: "Zheyu Li 李哲宇",
   role: "Ph.D. Candidate in Civil & Environmental Engineering",
@@ -60,7 +60,7 @@ Prewindow.SITE_DATA = {
     { value: "1", label: "Accepted journal article" },
     { value: "2023", label: "Ph.D. start" }
   ],
-    news: [
+  news: [
     { date: "Apr 2026", text: "Guest presenter for ENCE 674 - Public Transportation Planning at the University of Maryland, April 14." },
     { date: "Apr 2026", text: "Hybrid scheduling and routing paper under minor revision at Transportation Research Record." },
     { date: "Feb 2026", text: "Our ARC-supported research on on-demand public transportation for rural communities was featured in the issue of Civil Remarks Winter 2026, Dept. of CEE, UMD" },
@@ -102,7 +102,7 @@ Prewindow.SITE_DATA = {
       url: "https://www.researchgate.net/publication/403641090_Hybrid_Scheduling_and_Routing_for_Rural_Transit_with_Flexible_and_Fixed-Route_Integration"
     }
   ],
-    service: [
+  service: [
     {
       title: "Invited Presentations",
       items: [
