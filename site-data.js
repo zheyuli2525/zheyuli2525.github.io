@@ -1,4 +1,4 @@
-window.SITE_DATA = {
+Prewindow.SITE_DATA = {
   name: "Zheyu Li",
   nameNative: "Zheyu Li 李哲宇",
   role: "Ph.D. Candidate in Civil & Environmental Engineering",
@@ -167,7 +167,7 @@ window.SITE_DATA = {
       title: "Optimization of Runway Exits Locations Based on Fleet Mix and Operational Uncertainty",
       authors: "Zheyu Li, Yuan-Zheng Lei, and Paul Schonfeld",
       details: "Under review at Transportation Research Part B: Methodological.",
-      links: [{ label: "Project", url: "#" }]
+      links: [{ label: "Preprint", url: "https://doi.org/10.2139/ssrn.6883131" }]
     },
     {
       venue: "Working Paper",
