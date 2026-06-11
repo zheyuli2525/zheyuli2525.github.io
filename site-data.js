@@ -153,7 +153,7 @@ window.SITE_DATA = {
       title: "Strategic Location Planning for Electric Truck Charging Stations using Truck Trajectory Data Improvement",
       authors: "Zheyu Li, Youngmin Choi, and Paul Schonfeld",
       details: "Accepted for Transportation Research Record, October 2025.",
-      links: [{ label: "DOI: doi.org/10.1177/03611981251364835", url: "https://doi.org/10.1177/03611981251364835" }]
+      links: [{ label: "DOI: doi.org/10.1177/03611981251364835", url: "https://doi.org/10.1177/03611981251364835" },{label:"ResearchGate",url:"https://www.researchgate.net/publication/393772344_Strategic_Location_Planning_for_Electric_Truck_Charging_Stations_using_Truck_Trajectory_Data_Improvement"}]
     },
     {
       venue: "Under Revision & TRB 2026",
