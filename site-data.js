@@ -55,14 +55,14 @@ window.SITE_DATA = {
     "Before beginning the Ph.D., I completed an M.S. in Civil and Environmental Engineering at the University of Maryland and a bachelor's degree in Transportation Engineering at Chang'an University."
   ],
   metrics: [
-    { value: "7", label: "Working papers" },
+    { value: "6", label: "Working papers" },
     { value: "4", label: "TRB presentations" },
     { value: "2", label: "Accepted journal article" },
     { value: "2023", label: "Ph.D. start" }
   ],
   news: [
+    { date: "Jul 2026", text: "Hybrid scheduling and routing paper accepted by Transportation Research Record." },
     { date: "Apr 2026", text: "Guest presenter for ENCE 674 - Public Transportation Planning at the University of Maryland, April 14." },
-    { date: "Apr 2026", text: "Hybrid scheduling and routing paper under minor revision at Transportation Research Record." },
     { date: "Feb 2026", text: "Our ARC-supported research on on-demand public transportation for rural communities was featured in the issue of Civil Remarks Winter 2026, Dept. of CEE, UMD" },
     { date: "Jan 2026", text: "Presented rural transit scheduling and routing work at the 105th TRB Annual Meeting, lectern section." },
     { date: "Oct 2025", text: "Electric truck charging station location planning paper accepted by Transportation Research Record." }
