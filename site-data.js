@@ -57,7 +57,7 @@ window.SITE_DATA = {
   metrics: [
     { value: "7", label: "Working papers" },
     { value: "4", label: "TRB presentations" },
-    { value: "1", label: "Accepted journal article" },
+    { value: "2", label: "Accepted journal article" },
     { value: "2023", label: "Ph.D. start" }
   ],
   news: [
@@ -149,18 +149,18 @@ window.SITE_DATA = {
   ],
   publications: [
     {
-      venue: "TRR",
+      venue: "TRR & TRB 2025",
       title: "Strategic Location Planning for Electric Truck Charging Stations using Truck Trajectory Data Improvement",
       authors: "Zheyu Li, Youngmin Choi, and Paul Schonfeld",
-      details: "Accepted for Transportation Research Record, October 2025.",
+      details: "Accepted for Transportation Research Record, October 2025. Also presented at the 104th TRB Annual Meeting.",
       links: [{ label: "doi.org/10.1177/03611981251364835", url: "https://doi.org/10.1177/03611981251364835" }, { label: "Manuscript", url: "https://www.researchgate.net/publication/393772344_Strategic_Location_Planning_for_Electric_Truck_Charging_Stations_using_Truck_Trajectory_Data_Improvement"}]
     },
     {
-      venue: "TRR Under Revision & TRB 2026",
+      venue: "TRR & TRB 2026",
       title: "Hybrid Scheduling and Routing for Rural Transit with Flexible and Fixed-Route Integration",
       authors: "Zheyu Li and Paul Schonfeld",
-      details: "Under minor revision at Transportation Research Record. Also presented at the 105th TRB Annual Meeting.",
-      links: [{ label: "Manuscript", url: "https://www.researchgate.net/publication/403641090_Hybrid_Scheduling_and_Routing_for_Rural_Transit_with_Flexible_and_Fixed-Route_Integration" }]
+      details: "Accepted for Transportation Research Record, July 2026. Also presented at the 105th TRB Annual Meeting.",
+      links: [{ label: "doi under approval"}, { label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/403641090_Hybrid_Scheduling_and_Routing_for_Rural_Transit_with_Flexible_and_Fixed-Route_Integration" }]
     },
     {
       venue: "TRpB Under Review",
