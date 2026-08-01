@@ -170,16 +170,22 @@ window.SITE_DATA = {
       links: [{ label: "Preprint @SSRN", url: "https://doi.org/10.2139/ssrn.6883131" }, {label: "Preprint @ResearchGate", url: "https://www.researchgate.net/publication/406077288_Optimization_of_Runway_Exits_Locations_Based_on_Fleet_Mix_and_Operational_Uncertainty"}]
     },
     {
-      venue: "Working Paper",
-      title: "Transit Coordination with Stochastic Optimization",
+      venue: "TRB 2027 Under Review",
+      title: "Joint Design of Rural Flexible-Route Bus Service and Request Stops for Low-Frequency Fixed-Route Buses",
       authors: "Zheyu Li and Paul Schonfeld",
-      details: "Working paper, proposal stage."
+      details: "Submitted to 106th Annual TRB Meeting for Presentation, TRBAM-27-03568."
     },
     {
-      venue: "Working Paper",
-      title: "Performance Evaluation and Measurement of Local Access Road in Appalachia",
+      venue: "TRB 2027 Under Review",
+      title: "A Performance Evaluation Framework for Rural Access Road Investments: From Application Estimates to Project Completion",
       authors: "Zheyu Li, Jason Wang, and Paul Schonfeld",
-      details: "Working paper, proposal stage."
+      details: "Submitted to 106th Annual TRB Meeting Presentation & Publication at Transportation Research Record, TRBAM-27-03319."
+    },
+       {
+      venue: "TRB 2027 Under Review",
+      title: "Multi-objective Runway Arrival Sequencing under Mixed Arrival and Departure Operations: A Simulation Study at SAN,",
+      authors: "Zheyu Li, Chen-Yen Lin, Samrad Babaee, Tianxiao Yu, and Paul Schonfeld",
+      details: "Submitted to 106th Annual TRB Meeting Presentation & Publication at Transportation Research Record, TRBAM-27-03619."
     },
     {
       venue: "Working Paper",
