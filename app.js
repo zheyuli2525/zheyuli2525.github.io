@@ -254,7 +254,7 @@ const renderFooter = () => {
   const revised = byId("last-revised");
   if (revised) {
     revised.textContent = data.revisedOn
-      ? `Revised on ${data.revisedOn}.`
+      ? `Last revised: ${data.revisedOn}`
       : "Built for GitHub Pages.";
   }
 };
