@@ -251,6 +251,12 @@ const setupNavigation = () => {
 
 const renderFooter = () => {
   byId("footer-year").textContent = `- ${new Date().getFullYear()}`;
+  const revised = byId("last-revised");
+  if (revised) {
+    revised.textContent = data.revisedOn
+      ? `Revised on ${data.revisedOn}.`
+      : "Built for GitHub Pages.";
+  }
 };
 
 setTextFields();
