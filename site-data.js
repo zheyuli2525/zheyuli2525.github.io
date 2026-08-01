@@ -154,7 +154,7 @@ window.SITE_DATA = {
       title: "Strategic Location Planning for Electric Truck Charging Stations using Truck Trajectory Data Improvement",
       authors: "Zheyu Li, Youngmin Choi, and Paul Schonfeld",
       details: "Accepted for Transportation Research Record, October 2025. Also presented at the 104th TRB Annual Meeting.",
-      links: [{ label: "doi.org/10.1177/03611981251364835", url: "https://doi.org/10.1177/03611981251364835" }, { label: "Manuscript", url: "https://www.researchgate.net/publication/393772344_Strategic_Location_Planning_for_Electric_Truck_Charging_Stations_using_Truck_Trajectory_Data_Improvement"}]
+      links: [{ label: "doi.org/10.1177/03611981251364835", url: "https://doi.org/10.1177/03611981251364835" }, { label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/393772344_Strategic_Location_Planning_for_Electric_Truck_Charging_Stations_using_Truck_Trajectory_Data_Improvement"}]
     },
     {
       venue: "TRR & TRB 2026",
@@ -199,21 +199,21 @@ window.SITE_DATA = {
       title: "Locations for Electric Truck Charging Stations and Impact of Battery Technology Improvement",
       authors: "Zheyu Li, Youngmin Choi, and Paul Schonfeld",
       details: "Poster Session at the 104th TRB Annual Meeting, January 2025.",
-      links: [{ label: "Manuscript", url: "https://www.researchgate.net/publication/393772344_Strategic_Location_Planning_for_Electric_Truck_Charging_Stations_using_Truck_Trajectory_Data_Improvement" }]
+      links: [{ label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/393772344_Strategic_Location_Planning_for_Electric_Truck_Charging_Stations_using_Truck_Trajectory_Data_Improvement" }]
     },
     {
       venue: "TRB 2025",
       title: "Optimization of Runway Exits Locations Based on Fleet Mix and Operational Delays",
       authors: "Zheyu Li and Paul Schonfeld",
       details: "Lectern Session at the 104th TRB Annual Meeting, January 2025.",
-      links: [{ label: "Manuscript", url: "https://www.researchgate.net/publication/396084963_Optimization_of_Runway_Exits_Locations_Based_on_Fleet_Mix_and_Operational_Delays" }]
+      links: [{ label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/396084963_Optimization_of_Runway_Exits_Locations_Based_on_Fleet_Mix_and_Operational_Delays" }]
     },
     {
       venue: "TRB 2024",
       title: "A Planning Model for Flexible-route Delivery Optimization of Farm Products: A Case Study in Central Appalachia",
       authors: "Zheyu Li, Jason Wang, and Paul Schonfeld",
       details: "Lectern Session at the 103rd TRB Annual Meeting, January 2024.",
-      links: [{ label: "Manuscript", url: "https://www.researchgate.net/publication/396085124_A_Planning_Model_for_Flexible-route_Delivery_Optimization_of_Farm_Products_A_Case_Study_in_Central_Appalachia" }]
+      links: [{ label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/396085124_A_Planning_Model_for_Flexible-route_Delivery_Optimization_of_Farm_Products_A_Case_Study_in_Central_Appalachia" }]
     }
   ],
   contactTitle: "Open to collaboration on transportation systems, infrastructure evaluation, and data-driven planning.",
