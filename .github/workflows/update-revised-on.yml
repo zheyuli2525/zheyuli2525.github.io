@@ -1,0 +1,53 @@
+name: Update revised timestamp
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - site-data.js
+
+permissions:
+  contents: write
+
+jobs:
+  update-revised-time:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Format the latest site-data update time
+        env:
+          COMMIT_TIMESTAMP: ${{ github.event.head_commit.timestamp }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          timestamp = os.environ["COMMIT_TIMESTAMP"].replace("Z", "+00:00")
+          revised_at = datetime.fromisoformat(timestamp).astimezone(ZoneInfo("America/New_York"))
+          formatted = revised_at.strftime("%B %-d, %Y, %-I:%M %p")
+
+          path = "site-data.js"
+          content = open(path, encoding="utf-8").read()
+          updated, count = re.subn(
+              r'(revisedOn:\s*)"[^"]*"',
+              rf'\1"{formatted}"',
+              content,
+              count=1,
+          )
+          if count != 1:
+              raise SystemExit("Could not find the revisedOn field in site-data.js")
+          open(path, "w", encoding="utf-8").write(updated)
+          PY
+
+      - name: Commit the updated timestamp
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site-data.js
+          git diff --cached --quiet || git commit -m "chore: update revised timestamp"
+          git push
