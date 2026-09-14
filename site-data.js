@@ -161,7 +161,7 @@ window.SITE_DATA = {
       title: "Hybrid Scheduling and Routing for Rural Transit with Flexible and Fixed-Route Integration",
       authors: "Zheyu Li and Paul Schonfeld",
       details: "Accepted for Transportation Research Record, July 2026. Also presented at the 105th TRB Annual Meeting.",
-      links: [{ label: "doi under approval"}, { label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/403641090_Hybrid_Scheduling_and_Routing_for_Rural_Transit_with_Flexible_and_Fixed-Route_Integration" }]
+      links: [{ label: "doi.org/10.1177/03611981261480104", url: "doi.org/10.1177/03611981261480104"}, { label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/403641090_Hybrid_Scheduling_and_Routing_for_Rural_Transit_with_Flexible_and_Fixed-Route_Integration" }]
     },
     {
       venue: "TRpB Under Review",
