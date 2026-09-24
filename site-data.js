@@ -62,6 +62,7 @@ window.SITE_DATA = {
     { value: "2023", label: "Ph.D. start" }
   ],
   news: [
+    { date: "Sep 2026", text: "As of September 24th, 2 of my TRB submissions are accepted for presentation at 106th TRB, Jan 2027" },
     { date: "Jul 2026", text: "Hybrid scheduling and routing paper accepted by Transportation Research Record." },
     { date: "Apr 2026", text: "Guest presenter for ENCE 674 - Public Transportation Planning at the University of Maryland, April 14." },
     { date: "Feb 2026", text: "Our ARC-supported research on on-demand public transportation for rural communities was featured in the issue of Civil Remarks Winter 2026, Dept. of CEE, UMD" },
@@ -174,21 +175,15 @@ window.SITE_DATA = {
       venue: "TRB 2027",
       title: "Joint Design of Rural Flexible-Route Bus Service and Request Stops for Low-Frequency Fixed-Route Buses",
       authors: "Zheyu Li and Paul Schonfeld",
-      details: "Will be presented at 106th Annual TRB Meeting Presentation, Jan 2027, TRBAM-27-03568."
+      details: "Will be presented at 106th Annual TRB Meeting Presentation, Jan 2027, TRBAM-27-03568.",
       links: [{ label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/414615425_Joint_Design_of_Rural_Flexible-Route_Bus_Service_and_Request_Stops_for_Low-Frequency_Fixed-Route_Buses" }]
     },
     {
       venue: "TRB 2027",
       title: "A Performance Evaluation Framework for Rural Access Road Investments: From Application Estimates to Project Completion",
       authors: "Zheyu Li, Jason Wang, and Paul Schonfeld",
-      details: "Will be presented at 106th Annual TRB Meeting Presentation, Jan 2027, TRBAM-27-03319."
+      details: "Will be presented at 106th Annual TRB Meeting Presentation, Jan 2027, TRBAM-27-03319.",
       links: [{ label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/414620268_A_Performance_Evaluation_Framework_for_Rural_Access_Road_Investments_From_Application_Claims_to_Project_Completion" }]
-    },
-       {
-      venue: "TRB 2027 Under Review",
-      title: "Multi-objective Runway Arrival Sequencing under Mixed Arrival and Departure Operations: A Simulation Study at SAN,",
-      authors: "Zheyu Li, Chen-Yen Lin, Samrad Babaee, Tianxiao Yu, and Paul Schonfeld",
-      details: "Submitted to 106th Annual TRB Meeting Presentation & Publication at Transportation Research Record, TRBAM-27-03619."
     },
     {
       venue: "Working Paper",
