@@ -9,7 +9,7 @@ window.SITE_DATA = {
   coverPhoto: "assets/harpersferry.png",
   coverCaption: "Harpers Ferry, West Virginia. May 2026.",
   cv: "assets/Zheyu_Li_CV_08-2026_Online_Ver.pdf",
-  revisedOn: "September 14, 2026, 2:24 PM",
+  revisedOn: "September 24, 2026, 11:21 AM",
   headlineKicker: "Academic Homepage",
   headline: "ZHEYU LI",
   summary:
