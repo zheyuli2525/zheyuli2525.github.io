@@ -62,7 +62,7 @@ window.SITE_DATA = {
     { value: "2023", label: "Ph.D. start" }
   ],
   news: [
-    { date: "Sep 2026", text: "As of September 24th, 2 of my TRB submissions are accepted for presentation at 106th TRB, Jan 2027" },
+    { date: "Sep 2026", text: "Three of my TRB submissions are accepted for presentation at 106th TRB, Jan 2027" },
     { date: "Jul 2026", text: "Hybrid scheduling and routing paper accepted by Transportation Research Record." },
     { date: "Apr 2026", text: "Guest presenter for ENCE 674 - Public Transportation Planning at the University of Maryland, April 14." },
     { date: "Feb 2026", text: "Our ARC-supported research on on-demand public transportation for rural communities was featured in the issue of Civil Remarks Winter 2026, Dept. of CEE, UMD" },
