@@ -8,8 +8,8 @@ window.SITE_DATA = {
   photo: "assets/profile.jpg",
   coverPhoto: "assets/harpersferry.png",
   coverCaption: "Harpers Ferry, West Virginia. May 2026.",
-  cv: "assets/Zheyu_Li_CV_08-2026_Online_Ver.pdf",
-  revisedOn: "September 29, 2026, 2:39 PM",
+  cv: "assets/Zheyu Li Academic CV 11-2026.pdf",
+  revisedOn: "November 7, 2026, 12:06 AM",
   headlineKicker: "Academic Homepage",
   headline: "ZHEYU LI",
   summary:
@@ -34,7 +34,8 @@ window.SITE_DATA = {
     "Dianwei Chen": "https://dianweichen.github.io/",
     "Yuan-Zheng Lei": "https://edisonylei.github.io/",
     "Youngmin Choi": "https://myrigparking.com/",
-    "Jason Wang": "https://www.arc.gov/staff/jason-wang/"
+    "Jason Wang": "https://www.arc.gov/staff/jason-wang/",
+    "Xianfeng Terry Yang": "https://cee.umd.edu/clark/faculty/1706/Xianfeng-Terry-Yang"
   },
   textLinks: {
     "Appalachian Regional Commission": "https://www.arc.gov",
@@ -62,7 +63,7 @@ window.SITE_DATA = {
     { value: "2023", label: "Ph.D. start" }
   ],
   news: [
-    { date: "Sep 2026", text: "Three of my TRB submissions are accepted for presentation at 106th TRB, Jan 2027" },
+    { date: "Sep 2026", text: "Three of my TRB submissions are accepted for poster presentation at 106th TRB, Jan 2027" },
     { date: "Jul 2026", text: "Hybrid scheduling and routing paper accepted by Transportation Research Record." },
     { date: "Apr 2026", text: "Guest presenter for ENCE 674 - Public Transportation Planning at the University of Maryland, April 14." },
     { date: "Feb 2026", text: "Our ARC-supported research on on-demand public transportation for rural communities was featured in the issue of Civil Remarks Winter 2026, Dept. of CEE, UMD" },
@@ -172,17 +173,31 @@ window.SITE_DATA = {
       links: [{ label: "Preprint @SSRN", url: "https://doi.org/10.2139/ssrn.6883131" }, {label: "Preprint @ResearchGate", url: "https://www.researchgate.net/publication/406077288_Optimization_of_Runway_Exits_Locations_Based_on_Fleet_Mix_and_Operational_Uncertainty"}]
     },
     {
+      venue: "JATM Under Review",
+      title: "Arrival-Only Runway Modeling: Effects on Delay Estimates and Sequencing Policy Evaluation",
+      authors: "Zheyu Li, Chen-Yen Lin, Samrad Babaee, Tianxiao Yu, and Paul Schonfeld",
+      details: "Under review at Journal of Air Transport Management.",
+      links: [{ label: "Manucript Number: JATM-D-26-01312"}]
+    },
+    {
       venue: "TRB 2027",
       title: "Joint Design of Rural Flexible-Route Bus Service and Request Stops for Low-Frequency Fixed-Route Buses",
       authors: "Zheyu Li and Paul Schonfeld",
-      details: "Will be presented at 106th Annual TRB Meeting Presentation, Jan 2027, TRBAM-27-03568.",
+      details: "Will be presented as a poster at 106th Annual TRB Meeting Presentation, 1:30PM - 3:15PM, Jan 11, 2027, TRBAM-27-03568.",
       links: [{ label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/414615425_Joint_Design_of_Rural_Flexible-Route_Bus_Service_and_Request_Stops_for_Low-Frequency_Fixed-Route_Buses" }]
     },
     {
       venue: "TRB 2027",
       title: "A Performance Evaluation Framework for Rural Access Road Investments: From Application Estimates to Project Completion",
       authors: "Zheyu Li, Jason Wang, and Paul Schonfeld",
-      details: "Will be presented at 106th Annual TRB Meeting Presentation, Jan 2027, TRBAM-27-03319.",
+      details: "Will be presented as a poster at 106th Annual TRB Meeting Presentation, 1:30PM - 3:15PM, Jan 11 2027, TRBAM-27-03319.",
+      links: [{ label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/414620268_A_Performance_Evaluation_Framework_for_Rural_Access_Road_Investments_From_Application_Claims_to_Project_Completion" }]
+    },
+      {
+      venue: "TRB 2027",
+      title: "Decommissioning Rural Roadside Traveler Information Infrastructure: An Evidence-Based Framework for HAR and DMS in the Mobile Era",
+      authors: "Dianwei Chen, Yuan-Zheng Lei, Zheyu Li, and Xianfeng Terry Yang",
+      details: "Will be presented as a poster at 106th Annual TRB Meeting Presentation, 10:30AM - 12:15PM, Jan 12 2027, TRBAM-27-03319.",
       links: [{ label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/414620268_A_Performance_Evaluation_Framework_for_Rural_Access_Road_Investments_From_Application_Claims_to_Project_Completion" }]
     },
     {
