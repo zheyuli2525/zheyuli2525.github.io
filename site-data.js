@@ -58,7 +58,7 @@ window.SITE_DATA = {
   ],
   metrics: [
     { value: "6", label: "Working papers" },
-    { value: "4", label: "TRB presentations" },
+    { value: "7", label: "TRB presentations" },
     { value: "2", label: "Accepted journal article" },
     { value: "2023", label: "Ph.D. start" }
   ],
