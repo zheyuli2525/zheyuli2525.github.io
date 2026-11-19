@@ -186,14 +186,14 @@ window.SITE_DATA = {
       title: "Joint Design of Rural Flexible-Route Bus Service and Request Stops for Low-Frequency Fixed-Route Buses",
       authors: "Zheyu Li and Paul Schonfeld",
       details: "Will be presented as a poster at 106th Annual TRB Meeting Presentation, 1:30PM - 3:15PM, Jan 11, 2027, TRBAM-27-03568.",
-      links: [{ label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/414615425_Joint_Design_of_Rural_Flexible-Route_Bus_Service_and_Request_Stops_for_Low-Frequency_Fixed-Route_Buses" }]
+      links: [{ label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/414615425_Joint_Design_of_Rural_Flexible-Route_Bus_Service_and_Request_Stops_for_Low-Frequency_Fixed-Route_Buses" }, { label: "Poster", url: "assets/posters/TRBAM-27-03568.pdf" }]
     },
     {
       venue: "TRB 2027",
       title: "A Performance Evaluation Framework for Rural Access Road Investments: From Application Estimates to Project Completion",
       authors: "Zheyu Li, Jason Wang, and Paul Schonfeld",
       details: "Will be presented as a poster at 106th Annual TRB Meeting Presentation, 1:30PM - 3:15PM, Jan 11 2027, TRBAM-27-03319.",
-      links: [{ label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/414620268_A_Performance_Evaluation_Framework_for_Rural_Access_Road_Investments_From_Application_Claims_to_Project_Completion" }]
+      links: [{ label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/414620268_A_Performance_Evaluation_Framework_for_Rural_Access_Road_Investments_From_Application_Claims_to_Project_Completion" }, { label: "Poster", url: "assets/posters/TRBAM-27-03319.pdf" }]
     },
       {
       venue: "TRB 2027",
