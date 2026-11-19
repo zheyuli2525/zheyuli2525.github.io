@@ -155,7 +155,7 @@ window.SITE_DATA = {
   publications: [
     {
       venue: "TRR & TRB 2025",
-      title: "Strategic Location Planning for Electric Truck Charging Stations using Truck Trajectory Data Improvement",
+      title: "Strategic Location Planning for Electric Truck Charging Stations using Truck Trajectory Data",
       authors: "Zheyu Li, Youngmin Choi, and Paul Schonfeld",
       details: "Accepted for Transportation Research Record, October 2025. Also presented at the 104th TRB Annual Meeting.",
       links: [{ label: "doi.org/10.1177/03611981251364835", url: "https://doi.org/10.1177/03611981251364835" }, { label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/393772344_Strategic_Location_Planning_for_Electric_Truck_Charging_Stations_using_Truck_Trajectory_Data_Improvement"}]
@@ -165,13 +165,13 @@ window.SITE_DATA = {
       title: "Hybrid Scheduling and Routing for Rural Transit with Flexible and Fixed-Route Integration",
       authors: "Zheyu Li and Paul Schonfeld",
       details: "Accepted for Transportation Research Record, July 2026. Also presented at the 105th TRB Annual Meeting.",
-      links: [{ label: "doi.org/10.1177/03611981261480104", url: "doi.org/10.1177/03611981261480104"}, { label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/403641090_Hybrid_Scheduling_and_Routing_for_Rural_Transit_with_Flexible_and_Fixed-Route_Integration" }]
+      links: [{ label: "doi.org/10.1177/03611981261480104", url: "https://doi.org/10.1177/03611981261480104"}, { label: "Manuscript for TRB presentation", url: "https://www.researchgate.net/publication/403641090_Hybrid_Scheduling_and_Routing_for_Rural_Transit_with_Flexible_and_Fixed-Route_Integration" }]
     },
     {
-      venue: "TRpB Under Review",
+      venue: "Working Paper",
       title: "Optimization of Runway Exits Locations Based on Fleet Mix and Operational Uncertainty",
       authors: "Zheyu Li, Yuan-Zheng Lei, and Paul Schonfeld",
-      details: "Under review at Transportation Research Part B: Methodological.",
+      details: "Preprint available on SSRN.",
       links: [{ label: "Preprint @SSRN", url: "https://doi.org/10.2139/ssrn.6883131" }, {label: "Preprint @ResearchGate", url: "https://www.researchgate.net/publication/406077288_Optimization_of_Runway_Exits_Locations_Based_on_Fleet_Mix_and_Operational_Uncertainty"}]
     },
     {
