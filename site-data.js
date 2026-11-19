@@ -9,7 +9,7 @@ window.SITE_DATA = {
   coverPhoto: "assets/harpersferry.png",
   coverCaption: "Harpers Ferry, West Virginia. May 2026.",
   cv: "assets/Zheyu Li Academic CV 11-2026.pdf",
-  revisedOn: "November 10, 2026, 10:58 AM",
+  revisedOn: "November 19, 2026, 12:40 AM",
   headlineKicker: "Academic Homepage",
   headline: "ZHEYU LI",
   summary:
@@ -63,12 +63,12 @@ window.SITE_DATA = {
     { value: "2023", label: "Ph.D. start" }
   ],
   news: [
+    { date: "Nov 2026", text: "At UMD CEE Research Day (Student Poster Presentation), our rural bus service poster won first place, and our rural access road evaluation poster tied for third." },
     { date: "Sep 2026", text: "Three of my TRB submissions are accepted for poster presentation at 106th TRB, Jan 2027" },
     { date: "Jul 2026", text: "Hybrid scheduling and routing paper accepted by Transportation Research Record." },
     { date: "Apr 2026", text: "Guest presenter for ENCE 674 - Public Transportation Planning at the University of Maryland, April 14." },
     { date: "Feb 2026", text: "Our ARC-supported research on on-demand public transportation for rural communities was featured in the issue of Civil Remarks Winter 2026, Dept. of CEE, UMD" },
-    { date: "Jan 2026", text: "Presented rural transit scheduling and routing work at the 105th TRB Annual Meeting, lectern section." },
-    { date: "Oct 2025", text: "Electric truck charging station location planning paper accepted by Transportation Research Record." }
+    { date: "Jan 2026", text: "Presented rural transit scheduling and routing work at the 105th TRB Annual Meeting, lectern section." }
   ],
   visitorWidgets: {
     statsUrl: "https://mapmyvisitors.com/web/1c4o5",
