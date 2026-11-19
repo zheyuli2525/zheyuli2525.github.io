@@ -38,6 +38,8 @@ window.SITE_DATA = {
     "Xianfeng Terry Yang": "https://cee.umd.edu/clark/faculty/1706/Xianfeng-Terry-Yang"
   },
   textLinks: {
+    "rural bus service poster": "assets/posters/TRBAM-27-03568.pdf",
+    "rural access road evaluation poster": "assets/posters/TRBAM-27-03319.pdf",
     "Appalachian Regional Commission": "https://www.arc.gov",
     "Civil Remarks Winter 2026": "https://view.publitas.com/university-of-maryland-jbyr39_jr_pb/civil-remarks-magazine-2025/page/4-5",
     "Electric truck charging station location planning paper": "https://journals.sagepub.com/doi/10.1177/03611981251364835",
