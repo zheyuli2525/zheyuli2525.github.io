@@ -70,7 +70,6 @@ window.SITE_DATA = {
     { date: "Jul 2026", text: "Hybrid scheduling and routing paper accepted by Transportation Research Record." },
     { date: "Apr 2026", text: "Guest presenter for ENCE 674 - Public Transportation Planning at the University of Maryland, April 14." },
     { date: "Feb 2026", text: "Our ARC-supported research on on-demand public transportation for rural communities was featured in the issue of Civil Remarks Winter 2026, Dept. of CEE, UMD" },
-    { date: "Jan 2026", text: "Presented rural transit scheduling and routing work at the 105th TRB Annual Meeting, lectern section." }
   ],
   visitorWidgets: {
     statsUrl: "https://mapmyvisitors.com/web/1c4o5",
