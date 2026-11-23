@@ -199,7 +199,7 @@ window.SITE_DATA = {
       title: "Decommissioning Rural Roadside Traveler Information Infrastructure: An Evidence-Based Framework for HAR and DMS in the Mobile Era",
       authors: "Dianwei Chen, Yuan-Zheng Lei, Zheyu Li, and Xianfeng Terry Yang",
       details: "Will be presented as a poster at 106th Annual TRB Meeting Presentation, 10:30AM - 12:15PM, Jan 12 2027, TRBAM-27-03319.",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2611.18886" }, { label: "Find on Google Scholar", url: "https://scholar.google.com/scholar?q=%22An%20Evidence-Based%20Decision%20Framework%20for%20Retiring%20Roadside%20Traveler%20Information%20Infrastructure%20in%20the%20Mobile%20Era%22" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2611.18886" }, { label: "Google Scholar", url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=yziTilsAAAAJ&citation_for_view=yziTilsAAAAJ:Y0pCki6q_DkC" }]
     },
     {
       venue: "Working Paper",
